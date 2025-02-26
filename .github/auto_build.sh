@@ -60,7 +60,6 @@ build_sku S0722540
 build_sku S0722550
 build_sku S0904980
 
-
 DATE=$(date +'%Y%m%d')
 GIT=$(git describe --tags --abbrev=0)
 zip -9 "freedmo-firmware-all-${DATE}-${GIT}.zip" freedmo-default-sku-*.bin
