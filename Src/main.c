@@ -103,7 +103,7 @@ static void MX_I2C2_Init(void);
 // SKU S0904980  // 104 mm x 159 mm  /      4 in x      6 in  /  220 pcs.
 
 //choose one of the dumped original tags for UID + signature emulation. It does not have to match the dumped data
-#define SLIX2_TAG_EMU 1  // 1-17
+#define SLIX2_TAG_EMU 2  // 1-17
 
 /* SLIX2 tag data */
 #if SLIX2_TAG_EMU == 1
