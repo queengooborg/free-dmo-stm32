@@ -10,9 +10,6 @@ Endless freedom for D.MO 550 series label writer printer.
 
 This mod requires basic knowledge of microprocessors, electronics and soldering. If you do not meet these requirements, do not proceed. This project and its authors/contributors are not liable for any damage or injury; perform this mod at your own risk.
 
-> [!NOTE]
-> This mod [may not work](https://www.reddit.com/r/dymo/comments/1dp6vfo/comment/lat0edf) on 550 series printers purchased after March 2024.  It is confirmed that the 5XL board rev. I does not work.
-
 ### Required tools
 
 - Philips 00 screwdriver
@@ -130,6 +127,14 @@ Double-check your connections between the Bluepill and the mainboard. You may ha
 Double-check your connections between the Bluepill and the RFID board. Also, make sure your two resistors are installed properly and their pins aren't touching.
 
 Note: you should also double-check if you have an [authentic STM32F103 Bluepill](https://github.com/keirf/greaseweazle/wiki/STM32-Fakes).
+
+### My 5XL will not print after reassembly, and the light just constantly blinks!
+
+First of all, check to make sure that your two 5-pin ribbon cables weren't accidentally swapped.  If the labels are not advancing the correct distance when pressing the advance button, try swapping those two cables back.  (On my 5XL, I found the shorter cable had the longer distance -- needle nose pliers may help with reassembly.)
+
+### I can't print from the Connect app, but I can print from other apps!
+
+Unfortunately, there is no solution at this time for this particular issue.  As it is right now, your best option is to use other apps to create labels.
 
 ## Technical info
 
