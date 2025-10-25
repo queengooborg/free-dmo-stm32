@@ -132,6 +132,8 @@ Note: you should also double-check if you have an [authentic STM32F103 Bluepill]
 
 First of all, check to make sure that your two 5-pin ribbon cables weren't accidentally swapped.  If the labels are not advancing the correct distance when pressing the advance button, try swapping those two cables back.  (On my 5XL, I found the shorter cable had the longer distance -- needle nose pliers may help with reassembly.)
 
+Next, try advancing the labels forward with the buttons. (I found that the printer needs to advance once in order to work.) Avoid manually adjusting the labels, as the printer will then stop working.
+
 ### I can't print from the Connect app, but I can print from other apps!
 
 Unfortunately, there is no solution at this time for this particular issue.  As it is right now, your best option is to use other apps to create labels.
